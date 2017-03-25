@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Marquis de Sheric - A Fragment of a Hallucination</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1><a href="index.html">THE MARQUIS DE SHERIC</a></h1>
+		<nav>
+			<a id="stories" href="stories.html">Stories</a>
+			<a id="about" href="about.html">About</a>
+			<a id="contact" href="contact.html">Contact</a>
+		</nav>
+	</header>
+
+	<main class="story">
+		<article>
+			<h1>A Fragment of a Hallucination</h1>
+			<p>
+				<span class="first">You sit there</span> 
+			</p>
+			<p>
+			
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+	
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+
+			</p>
+			<p>
+ 
+			</p>
+		</article>
+	</main>
+
+	<footer>
+		&copy; The Marquis de Sheric 2016
+	</footer>
+</body>
+</html>
