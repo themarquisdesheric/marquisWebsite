@@ -1,0 +1,39 @@
+/* 
+  Base rules are the defaults. They are almost exclusively single element selectors but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors. Essentially, a base style says that wherever this element is on the page, it should look like THIS.
+*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 50px; /* footer height */
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #444;
+}
+
+h1 {
+  margin: 0;
+  padding: .5em .2em 0;
+  font-family: 'Passion One', cursive;
+  font-size: 2.6em;
+}
+
+main {
+  margin: 0 auto;
+  width: 400px;
+}
+
+section {
+  background-color: #ddd;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
