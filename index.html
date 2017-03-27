@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" type="text/css" href="css/module.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Passion+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Passion+One|Oswald:200,300,400" rel="stylesheet">
 </head>
 <body>
 
@@ -15,9 +15,9 @@
     <h1>The Marquis de Sheric</h1>
     <nav>
       <ul>
-        <li><a href="#">Stories</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a data-content="stories" href="#">Stories</a></li>
+        <li><a data-content="about" href="#">About</a></li>
+        <li><a data-content="contact" href="#">Contact</a></li>
       </ul>
     </nav>
     <div></div>
@@ -27,11 +27,11 @@
     <!-- QUOTES -->
     <section id="quotes">
       <p id="quote-area">
-        <span class="large-text">“Fear? What of it?</span> The things a man fears are almost never the ones he succumbs to, yet they rob him of his time, sapping away at his soul with an unprecedented diligence. It is a maladjusted conscience a man should fear, not life itself. Let life happen. Be more than a simple buoy bouncing in an endless sea. Find yourself, orient yourself, and take on the world. Throw caution to the wind. Get a taste of adventure. Go to foreign and exotic lands, and try foreign and exotic drugs with foreign and exotic people. We’re creatures of habit until the bitter end, and tell me, honestly, would you really want to go through life without any scars? Without those nights where you wondered, with all of your heart, if you would make it to see tomorrow? Embrace danger, embrace anything that holds a chance of killing you. For it is those things, and only those things, that pose any chance of liberating you from this meaningless, senseless ennui. Or are you perfectly satisfied with your life just the way it is?<span class="large-text end-quote">”</span>
+        <span class="open-quote">“Fear? What of it?</span> The things a man fears are almost never the ones he succumbs to, yet they rob him of his time, sapping away at his soul with an unprecedented diligence. It is a maladjusted conscience a man should fear, not life itself. Let life happen. Be more than a simple buoy bouncing in an endless sea. Find yourself, orient yourself, and take on the world. Throw caution to the wind. Get a taste of adventure. Go to foreign and exotic lands, and try foreign and exotic drugs with foreign and exotic people. We’re creatures of habit until the bitter end, and tell me, honestly, would you really want to go through life without any scars? Without those nights where you wondered, with all of your heart, if you would make it to see tomorrow? Embrace danger, embrace anything that holds a chance of killing you. For it is those things, and only those things, that pose any chance of liberating you from this meaningless, senseless ennui. Or are you perfectly satisfied with your life just the way it is?<span class="end-quote">”</span>
 				<br>
-				<cite>-from <a href="#">The Hedonism Manifesto</a></cite><br>
-				<button id="quote-button">Show me more!</button>
+				<cite>-from <a href="#">The Hedonism Manifesto</a></cite>
       </p>
+      <button id="quote-button">Show me more!</button>
     </section>
     <!-- TABLE OF CONTENTS -->
     <section id="table-of-contents">
@@ -271,6 +271,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script src="app.js"></script>
+  <script src="scripts/model.js"></script>
+  <script src="scripts/view.js"></script>
+  <script src="scripts/controller.js"></script>
 </body>
 </html>

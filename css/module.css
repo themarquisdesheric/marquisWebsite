@@ -39,8 +39,8 @@ nav ul {
   list-style-type: none;
   padding-left: 0;
   display: none;
-  margin: .5em auto;
-  width: 5%;
+  margin: .5em auto .7em;
+  width: 85px;
 }
 
 
@@ -56,14 +56,60 @@ nav ul li:first-child {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* END HEADER SECTION */ 
 
 
 
+/* QUOTE SECTION */
+
+.open-quote, .end-quote {
+  color: #200;
+  font-size: 145%;
+  font-family: 'Passion One', sans-serif;
+}
+
+.end-quote {
+  margin-left: 2px;
+}
+
+cite {
+  margin: 0.9em 0;
+  display: inline-block;
+}
+
+cite a {
+  color: #200;
+  font-weight: bold;
+}
+
+#quote-area {
+  margin-bottom: 0;
+}
+
+/* END QUOTE SECTION */
+
+
+
+/* TABLE OF CONTENTS */
+
 #table-of-contents ul {
   list-style-type: none;
   padding-left: 0;
 }
+
+/* END TABLE OF CONTENTS */
+
+
+
+/* MISC COMPONENTS */
+
+button {
+  background-color: #200;
+	color: #fff;
+  border-radius: 7px;
+}
+
+/* END MISC COMPONENTS */
