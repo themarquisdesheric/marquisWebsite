@@ -39,8 +39,8 @@ nav ul {
   list-style-type: none;
   padding-left: 0;
   display: none;
-  margin: .5em auto;
-  width: 5%;
+  margin: .5em auto .7em;
+  width: 85px;
 }
 
 
