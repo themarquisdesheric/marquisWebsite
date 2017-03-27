@@ -1,2 +1,0 @@
-$('section').hide();
-$('#quotes').fadeIn();

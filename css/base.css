@@ -10,7 +10,7 @@ html {
 body {
   margin: 0 0 50px; /* footer height */
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald Light', sans-serif;
   background-color: #444;
 }
 
@@ -28,6 +28,14 @@ main {
 
 section {
   background-color: #ddd;
+  padding: 1em;
+  margin: .7em;
+  border-radius: 8px;
+  line-height: 1.4em;
+}
+
+a:hover, button:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -35,5 +43,7 @@ footer {
   left: 0;
   bottom: 0;
   height: 50px;
+  line-height: 50px;
   width: 100%;
+  font-family: 'Oswald', sans-serif;
 }
