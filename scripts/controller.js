@@ -5,11 +5,6 @@
   const $quoteArea = $('#quote-area');
   let previousQuote;
 
-  controller.init = () => {
-    $('section').hide();
-    $('#quotes').fadeIn();
-  }
-
   $('#quote-button').on('click', () => {
     let randNumber = Math.floor(Math.random() * model.quotes.length);
 
@@ -30,6 +25,5 @@
     console.log(clicked);
   })
 
-  controller.init();
   module.controller = controller;
 })(window);

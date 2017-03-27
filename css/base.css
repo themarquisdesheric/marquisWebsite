@@ -23,7 +23,7 @@ h1 {
 
 main {
   margin: 0 auto 66px;
-  width: 400px;
+  min-width: 400px;
 }
 
 section {

@@ -2,3 +2,30 @@
   Layout rules divide the page into sections. Layouts hold one or more modules together.
 */
 
+section {
+  margin-bottom: 66px;
+}
+
+@media only screen and (min-width: 500px) {
+  main {
+    margin: 0 5%;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  main {
+    margin: 0 10%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    margin: 0 15%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    margin: 0 20%;
+  }
+}
