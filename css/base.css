@@ -17,8 +17,15 @@ body {
 h1 {
   margin: 0;
   padding: .5em .2em 0;
+  /* if you remove this, font-height jumps to 49px from 46 */
   font-family: 'Passion One', cursive;
   font-size: 2.6em;
+}
+
+h1 a {
+  font-family: 'Passion One', cursive;
+  text-decoration: none;
+  color: #fff;
 }
 
 main {

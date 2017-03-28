@@ -16,6 +16,7 @@
     previousQuote = randNumber;
   });
 
+  //nav & stories click handler
   $('li').on('click', ':not(div)', function() {
     let clicked = $(this).data('content');
 
@@ -23,7 +24,7 @@
     $(`#${clicked}`).fadeIn();
     // TODO need to fix issue with first click registering as click to stories
     console.log(clicked);
-  })
+  });
 
   module.controller = controller;
 })(window);
