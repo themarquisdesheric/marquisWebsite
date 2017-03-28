@@ -87,6 +87,7 @@ cite a {
 
 #quote-area {
   margin-bottom: 0;
+  text-align: center;
 }
 
 /* END QUOTE SECTION */
@@ -101,6 +102,25 @@ cite a {
 }
 
 /* END TABLE OF CONTENTS */
+
+
+
+/* STORIES SECTION */
+
+blockquote {
+  font-style: italic;
+}
+
+section p {
+  text-align: left;
+}
+
+.markers {
+	text-align: center;
+	font-weight: bold;
+}
+
+/* END STORIES SECTION */
 
 
 
