@@ -17,7 +17,7 @@ div {
   background-size: 22px;
 }
 
-header:hover ul {
+nav:hover ul {
   display: block;
 }
 
@@ -25,18 +25,25 @@ header:hover ul {
   display: none;
 }*/
 
+nav {
+  position: fixed;
+  width: 100%;
+}
+
 nav ul {
   list-style-type: none;
   padding-left: 0;
   display: none;
   margin: .5em auto .7em;
-  width: 85px;
+  width: 100px;
+  font-size: .85em;
 }
 
 
 nav ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 0.3em 0;
+  padding: 10px 15px;
+  background-color: #200;
 }
 
 nav ul li:first-child {
@@ -91,6 +98,14 @@ cite a {
   padding-left: 0;
 }
 
+#table-of-contents li {
+  padding: .1em;
+}
+
+#table-of-contents a {
+  text-decoration: none;
+}
+
 /* END TABLE OF CONTENTS */
 
 
@@ -120,6 +135,12 @@ button {
   background-color: #200;
 	color: #fff;
   border-radius: 7px;
+  padding: .5em 1em;
+  font-weight: 500;
+}
+
+section a:visited, section a:hover {
+  color: #000;
 }
 
 /* END MISC COMPONENTS */
