@@ -43,6 +43,7 @@ h1 a {
 
 li a:hover {
   font-weight: bold;
+  color: #2cc;
 }
 
 main { /* was 105px */
