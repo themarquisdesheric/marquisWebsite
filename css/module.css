@@ -6,16 +6,6 @@
 
 /* HEADER SECTION */
 
-header, footer {
-  background-color: #200;
-  color: #fff;
-}
-
-header {
-  text-transform: uppercase;
-  padding-bottom: .4em;
-}
-
 div {
   margin: 0 auto;
   padding: 0;

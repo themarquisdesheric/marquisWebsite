@@ -14,6 +14,19 @@ body {
   background-color: #444;
 }
 
+header, footer {
+  background-color: rgba(34,0,0, 0.8);
+  color: #fff;
+}
+
+header {
+  text-transform: uppercase;
+  padding-bottom: .4em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 h1 {
   margin: 0;
   padding: .5em .2em 0;
@@ -29,7 +42,7 @@ h1 a {
 }
 
 main {
-  margin: 0 auto 66px;
+  margin: 105px auto 66px;
   min-width: 400px;
 }
 
