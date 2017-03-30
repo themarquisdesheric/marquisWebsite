@@ -8,24 +8,29 @@ section {
 
 @media only screen and (min-width: 500px) {
   main {
-    margin: 0 5%;
+    margin: 105px 5% 0%;
+  }
+
+  section {
+    margin: .7em;
+    border-radius: 8px;
   }
 }
 
 @media only screen and (min-width: 650px) {
   main {
-    margin: 0 10%;
+    margin: 105px 10% 0;
   }
 }
 
 @media only screen and (min-width: 800px) {
   main {
-    margin: 0 15%;
+    margin: 105px 15% 0;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   main {
-    margin: 0 20%;
+    margin: 105px 20% 0;
   }
 }

@@ -14,11 +14,24 @@ body {
   background-color: #444;
 }
 
+header, footer {
+  background-color: rgba(34,0,0, 0.8);
+  color: #fff;
+}
+
+header {
+  text-transform: uppercase;
+  padding-bottom: .4em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 h1 {
   margin: 0;
-  padding: .5em .2em 0;
+  padding: .4em .2em .2em;
   /* if you remove this, font-height jumps to 49px from 46 */
-  font-family: 'Passion One', cursive;
+  /*font-family: 'Passion One', cursive;*/
   font-size: 2.6em;
 }
 
@@ -28,16 +41,18 @@ h1 a {
   color: #fff;
 }
 
-main {
-  margin: 0 auto 66px;
+li a:hover {
+  font-weight: bold;
+}
+
+main { /* was 105px */
+  margin: 81px auto 66px;
   min-width: 400px;
 }
 
 section {
   background-color: #ddd;
   padding: 1em;
-  margin: .7em;
-  border-radius: 8px;
   line-height: 1.4em;
 }
 
