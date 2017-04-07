@@ -19,6 +19,8 @@ header, footer {
   color: #fff;
 }
 
+/* HEADER SECTION */
+
 header {
   text-transform: uppercase;
   padding-bottom: .4em;
@@ -42,9 +44,60 @@ h1 a {
 }
 
 li a:hover {
-  font-weight: bold;
   color: #0ff;
 }
+
+div {
+  margin: 0 auto;
+  padding: 0;
+  width: 30px;
+  height: 15px;
+  border-radius: 3px;
+  /* Entypo pictograms by Daniel Bruce — www.entypo.com */
+  background: url(../entypo+/entypo+/dots-three-horizontal.svg) no-repeat center center #fff;
+  background-size: 22px;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+/*header:hover div {
+  display: none;
+}*/
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: none;
+  margin: .5em auto .7em;
+  width: 100px;
+  font-size: .85em;
+}
+
+nav ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px 15px;
+  background-color: #200;
+}
+
+nav ul li:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* END HEADER SECTION */ 
+
 
 main { /* was 105px */
   margin: 81px auto 66px;
